@@ -1,4 +1,4 @@
-#Exemplo de página HTML/CSS
+#Exemplo de página HTML/CSS#
 
 Este exemplo de página é para ser utilizado na disicplina de Progrmação orientada a objetos
 do Curso Superior em Tecnologia de Produção Multimídia do IFSC - Campus Palhoça Bilíngue
