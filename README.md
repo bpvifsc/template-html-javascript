@@ -26,6 +26,10 @@ Para isso são necessários os seguintes recursos:
     - Cores de fundo - Ex.: `#eef1ec #ffffff`
     - Cores de outros elementos - Ex.: Botões com fundo `#2f9e40`
 
+## Site ##
+
+Você pode acessar este modelo pela URL: https://bpvifsc.github.io/template-html-basico/
+
 
 
 
