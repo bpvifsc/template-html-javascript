@@ -1,0 +1,159 @@
+/* CSS Geral */
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Barra de Menus e Navegação */
+nav{
+    background-color: #eef1ec;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+#menu img{
+    margin: 10px;
+    width: 85%;
+}
+
+#menu ul li{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: #4f81bb;
+    height: 100%;
+}
+
+nav li:hover{
+    font-weight: bolder;
+}
+
+/* Estilo do Campus */
+
+#campus{
+    background-image: url('img/fundo-campus.jpg');
+    background-size: 100%;
+    color: #FFFFFF;
+    padding: 10%;
+    margin-top: 5%;
+}
+
+#campus h1{
+    font-size: 1.5rem;
+}
+
+
+#campus p{
+    font-size: 1.25rem;
+}
+
+/* Estilo dos cursos */
+
+#cursos{
+    background-color: #ffffff;
+    padding: 10%;
+}
+
+#cursos h1{
+    font-size: 2rem;
+}
+
+
+/* Estilo dos depoimentos */
+
+#depoimentos{
+    background-color: #eef1ec;
+    padding: 10%;
+}
+
+.item-depoimento{
+    display: inline-block;
+    width: 50%;
+}
+
+.item-depoimento img{
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.item-depoimento p{
+    text-transform: capitalize;
+    font-style: italic;
+    padding: 10%;
+    text-indent: 20%;
+}
+
+/* Estilo dos comentários */
+
+#mural{
+    background-color: #FFFFFF;
+    padding: 10%;
+}
+
+#formulario{
+    display: inline-block;
+    margin: 5%;
+    padding: 5%;
+    width: 25%;
+    background-color: #eef1ec;
+}
+
+#lista-comentarios{
+    display: inline-block;
+    margin: 5%;
+    padding: 5%;
+    width: 25%;
+}
+
+#lista-comentarios div{
+    font-style: italic;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    
+}
+
+#mural textarea{
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 100px;
+}
+
+#mural input{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#mural button{
+    display: block;
+    width: 80%;
+    height: 45px;
+    background-color: #2f9e40;
+    margin: 10%;
+    border: none;
+    border-radius: 5px;
+}
+
+/* estilo do rodapé */
+footer{
+    background-color: #eef1ec;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}

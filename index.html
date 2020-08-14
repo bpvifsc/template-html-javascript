@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Modelo de Site Disciplina de POO IFSC-PHB</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+    <script src='main.js'></script>
+</head>
+<body onload="mostraComentarios()">
+    <nav id="menu">
+        <ul>
+            <li><a href="#"><img src="img/logo.png" class="item-menu"/></a></li>
+            <li><a href="#campus">Campus</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#mural">Mural</a></li>
+        </ul>
+    </nav>
+
+    <article id="campus">
+        <h1>O Campus</h1>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, et quibusdam minima illo est asperiores dolores reiciendis fugit voluptatum laudantium ad adipisci harum dignissimos eum soluta odio eaque ullam fuga.</p>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, et quibusdam minima illo est asperiores dolores reiciendis fugit voluptatum laudantium ad adipisci harum dignissimos eum soluta odio eaque ullam fuga.</p>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, et quibusdam minima illo est asperiores dolores reiciendis fugit voluptatum laudantium ad adipisci harum dignissimos eum soluta odio eaque ullam fuga.</p>
+    </article>
+
+    <article id="cursos">
+        <h1>Os Cursos</h1>
+        <h2>Produção Multimídia</h2>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, et quibusdam minima illo est asperiores dolores reiciendis fugit voluptatum laudantium ad adipisci harum dignissimos eum soluta odio eaque ullam fuga.</p>
+        <h2>Pedagogia</h2>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, et quibusdam minima illo est asperiores dolores reiciendis fugit voluptatum laudantium ad adipisci harum dignissimos eum soluta odio eaque ullam fuga.</p>
+    </article>
+
+    <article id="depoimentos">
+        <div class="item-depoimento">
+            <img class="foto-depoimento" src="img/foto1.png" />
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, et quibusdam minima illo est asperiores dolores reiciendis fugit voluptatum laudantium ad adipisci harum dignissimos eum soluta odio eaque ullam fuga.</p>
+        </div><div class="item-depoimento">
+            <img class="foto-depoimento" src="img/foto2.png" />
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, et quibusdam minima illo est asperiores dolores reiciendis fugit voluptatum laudantium ad adipisci harum dignissimos eum soluta odio eaque ullam fuga.</p>
+        </div>
+    </article>
+
+    <article id="mural">
+        <div id="formulario">
+            <p> Deixe seus comentários sobre o campus</p>
+            <input id="nome" type="text" placeholder="Nome completo" />
+            <textarea id="comentario" placeholder="Comentário..."></textarea>
+            <button onclick="publicar()">Publicar</button>
+        </div>
+        <div id="lista-comentarios"></div>
+    </article>
+
+    <footer>
+        <p>IFSC - Campus Palhoça Bilíngue</p>
+        <p>Todos os direitos reservados ®</p>
+    </footer>
+
+</body>
+</html>
