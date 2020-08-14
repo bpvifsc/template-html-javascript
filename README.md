@@ -19,7 +19,8 @@ Para isso são necessários os seguintes recursos:
 - Imagem PNG sem fundo da logo - arquivo `img/logo.png`
 - Imagens gerais, fotos, icones etc - ex.: arquivo `img/foto1.png`
 - Imagens para fundos de página do CSS - arquivo `fundo-campus.png`
-- Informação sobre a tipografia(fontes, tamanhos em 'em')
+- Informação sobre a tipografia(fontes, tamanhos em 'em') 
+    - fonte: sans-serif
 - Código html das cores da identidade visual
     - Cores do Menu - Ex.: `#eef1ec`
     - Cores da fonte - Ex.: `#4f81bb`(menu) `#000000`(normal) `#ffffff`(aplicação sobre fundo escuro)
