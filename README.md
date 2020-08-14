@@ -1,4 +1,6 @@
-# Exemplo de página HTML/CSS #
+# Exemplo de página HTML/CSS # <img align="right" height="48" src="https://github.com/bpvifsc/template-html-basico/blob/master/img/logo.png" >
+
+
 
 Este exemplo de página HTML/CSS é fornecido para ser utilizado na disicplina de 
 Programação Orientada a Objetos do Curso Superior em Tecnologia de Produção Multimídia
