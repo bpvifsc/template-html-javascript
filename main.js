@@ -19,6 +19,12 @@ function publicar() {
 
  function mostraComentarios() {
     document.getElementById('lista-comentarios').innerHTML = "";
-    listaComentarios.map(  t => document.getElementById('lista-comentarios').innerHTML += `<div>"${t}"</div>` );
+    
+    let html = "";
+    for(let t of listaComentarios){
+            html += '<div>'+t+'</div>' ;
+    }
+    
+    document.getElementById('lista-comentarios').innerHTML = html;
  }
  
