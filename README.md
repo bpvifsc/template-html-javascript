@@ -1,11 +1,12 @@
 # Exemplo de página HTML/CSS #
 
-Este exemplo de página é para ser utilizado na disicplina de Progrmação orientada a objetos
-do Curso Superior em Tecnologia de Produção Multimídia do IFSC - Campus Palhoça Bilíngue
+Este exemplo de página HTML/CSS é fornecido para ser utilizado na disicplina de 
+Programação Orientada a Objetos do Curso Superior em Tecnologia de Produção Multimídia
+do IFSC - Campus Palhoça Bilíngue
 
 *Prof. Bruno Panerai Velloso*
 
-----------
+
 ## Orientações ##
 
 Este código deve ser utilizado de base, junto com as vídeo aulas fornecidas, para a construção
