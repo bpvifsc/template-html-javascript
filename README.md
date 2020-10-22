@@ -1,4 +1,4 @@
-# Exemplo de página HTML/CSS - Javascript  <img align="right" height="48" src="https://github.com/bpvifsc/template-html-javascript/blob/master/img/logo.png" > #
+# Exemplo de página HTML/CSS - Javascript  <img align="right" height="48" src="https://github.com/bpvifsc/template-html-javascript/blob/main/img/logo.png?raw=true" > #
 
 
 
