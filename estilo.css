@@ -14,6 +14,7 @@ nav{
     top:0;
     left: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 #menu img{
@@ -144,10 +145,7 @@ nav li:hover{
     display: block;
     width: 80%;
     height: 45px;
-    background-color: #2f9e40;
     margin: 10%;
-    border: none;
-    border-radius: 5px;
 }
 
 /* estilo do rodapé */
@@ -156,4 +154,102 @@ footer{
     padding: 10px;
     font-size: 12px;
     text-align: center;
+    border-top: 1px #aaaaaa;
+}
+
+/* Estilo do app */
+
+#app{
+    background-color: #eef1ec;
+    padding: 10%;
+}
+
+#imagem-user{
+    position: relative;
+    width: 60%;
+    height: fit-content;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20%;
+    text-align: center;
+    min-height:  50px;
+}
+
+#imagem-fundo{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 15px;
+    width: 100%;
+    z-index: -1;
+}
+
+#imagem-logo{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 15%;
+}
+
+#ferramentas{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    padding: 50px;
+    background-color: #FFFFFF;
+}
+#ferramentas div{
+    margin: 15px;
+}
+
+#imagem-texto{
+    display: inline-block;
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    left: 0px;
+    bottom: 0px;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow:2px 2px 0 #000,
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                0px 2px 0 #000,
+                2px 0px 0 #000,
+                0px -2px 0 #000,
+                -2px 0px 0 #000,
+                2px 2px 5px #000;
+}
+
+.botao{
+    background-color: #2f9e40;
+    padding: 4px;   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botoes-posicao{
+    width: fit-content;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#botoes-posicao div{
+    margin: 0px;
+    padding: 0px;
+}
+
+#arquivo{
+    display: none;
+}
+
+.coluna{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
 }

@@ -16,6 +16,7 @@
             <li><a href="#cursos">Cursos</a></li>
             <li><a href="#depoimentos">Depoimentos</a></li>
             <li><a href="#mural">Mural</a></li>
+            <li><a href="#app">Aplicação</a></li>
         </ul>
     </nav>
 
@@ -33,6 +34,8 @@
         <h2>Pedagogia</h2>
         <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, et quibusdam minima illo est asperiores dolores reiciendis fugit voluptatum laudantium ad adipisci harum dignissimos eum soluta odio eaque ullam fuga.</p>
     </article>
+    
+    
 
     <article id="depoimentos">
         <div class="item-depoimento">
@@ -49,9 +52,56 @@
             <p> Deixe seus comentários sobre o campus</p>
             <input id="nome" type="text" placeholder="Nome completo" />
             <textarea id="comentario" placeholder="Comentário..."></textarea>
-            <button onclick="publicar()">Publicar</button>
+            <button class="botao" onclick="publicar()">Publicar</button>
         </div>
         <div id="lista-comentarios"></div>
+    </article>
+
+    <article id="app">
+        <h1>Crie um banner do IFSC</h1>
+        <div id="imagem-user">
+            <img id="imagem-fundo" />
+            <img id="imagem-logo" />
+            <p id="imagem-texto"></p>
+        </div>
+        <div id="ferramentas">
+            <div class="coluna">
+                <div>
+                    <label for="arquivo" class="botao">Carregar imagem</label>
+                    <input id="arquivo" type="file" placeholder="Selecione o arquivo" onchange="carregaImagem(event)" />
+                </div>
+                <button class="botao" onclick="trocaLogoClaro()">Logo Claro</button>
+                <button class="botao" onclick="trocaLogoEscuro()">Logo Escuro</button>
+                <div id="botoes-posicao">
+                    <div>
+                        <img class="botao" src="img/topo-esquerda.svg" 
+                                onclick="posicaoLogo('10%','10%','initial','initial')" />
+                        <img class="botao" src="img/topo-direita.svg" 
+                                onclick="posicaoLogo('10%','initial','initial','10%')" />
+                    </div>
+                    <div>
+                        <img class="botao" src="img/baixo-esquerda.svg" 
+                                onclick="posicaoLogo('initial','10%','10%','initial')" />
+                        <img class="botao" src="img/baixo-direita.svg" 
+                                onclick="posicaoLogo('initial','initial','10%','10%')" />
+                    </div>
+                </div>
+            </div>
+            <div class="coluna">
+                <div>
+                    <input type="text" id="texto" placeholder="Texto..." oninput="atualizaTexto()" />
+                </div>
+                <div>
+                    <input type="range" id="tamanho-fonte" 
+                        min="20" max="60" value="35"
+                        oninput="atualizaFonte()" />    
+                    <div>
+                        <img class="botao" src="img/vertical-topo.svg" onclick="textoTopo()" />
+                        <img class="botao" src="img/vertical-baixo.svg" onclick="textoBaixo()" />
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 
     <footer>
