@@ -1,4 +1,4 @@
-# Exemplo de página HTML/CSS  <img align="right" height="48" src="https://github.com/bpvifsc/template-html-basico/blob/master/img/logo.png" > #
+# Exemplo de página HTML/CSS - Javascript  <img align="right" height="48" src="https://github.com/bpvifsc/template-html-javascript/blob/master/img/logo.png" > #
 
 
 
@@ -11,25 +11,13 @@ do IFSC - Campus Palhoça Bilíngue
 
 ## Orientações ##
 
-Este código deve ser utilizado de base, junto com as vídeo aulas fornecidas, para a construção
-do site do seu projeto.
+Este código deve ser utilizado em conjunto com o disponível no repositório: https://github.com/bpvifsc/template-html-basico
 
-Para isso são necessários os seguintes recursos:
-
-- Imagem PNG sem fundo da logo - arquivo `img/logo.png`
-- Imagens gerais, fotos, icones etc - ex.: arquivo `img/foto1.png`
-- Imagens para fundos de página do CSS - arquivo `fundo-campus.png`
-- Informação sobre a tipografia(fontes, tamanhos em 'em') 
-    - fonte: sans-serif
-- Código html das cores da identidade visual
-    - Cores do Menu - Ex.: `#eef1ec`
-    - Cores da fonte - Ex.: `#4f81bb`(menu) `#000000`(normal) `#ffffff`(aplicação sobre fundo escuro)
-    - Cores de fundo - Ex.: `#eef1ec #ffffff`
-    - Cores de outros elementos - Ex.: Botões com fundo `#2f9e40`
+O código disponível aqui contem a implementação do aplicativo de criação de banners e pode ser utilizado como base para suas implementações.
 
 ## Site ##
 
-Você pode acessar este modelo pela URL: https://bpvifsc.github.io/template-html-basico/
+Você pode acessar este modelo pela URL: https://bpvifsc.github.io/template-html-javascript/
 
 
 
